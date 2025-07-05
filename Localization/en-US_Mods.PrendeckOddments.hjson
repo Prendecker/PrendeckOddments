@@ -1,8 +1,13 @@
-# This file will automatically update with entries for new content after a build and reload.
-
 Items: {
-	Hi: {
-		DisplayName: hi
-		Tooltip: fuck you
+	Sigkin: {
+		DisplayName: Sigkin
+		Tooltip: "[c/802592:Darkness]"
+	}
+
+	BGun: {
+		DisplayName: B Gun
+		Tooltip: ""
 	}
 }
+
+Projectiles.Sigma.DisplayName: Sigma

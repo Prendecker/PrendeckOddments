@@ -1,8 +1,13 @@
-# This file will automatically update with entries for new content after a build and reload.
-
 Items: {
-	Hi: {
-		DisplayName: 池沼碎冰冰
-		Tooltip: 吓人......
+	Sigkin: {
+		DisplayName: 西格玛
+		Tooltip: "[c/802592:黑暗]"
+	}
+
+	BGun: {
+		DisplayName: 命定
+		Tooltip: "[c/FC55BF:“根本就射不完啊bachi”]"
 	}
 }
+
+Projectiles.Sigma.DisplayName: 西格玛
