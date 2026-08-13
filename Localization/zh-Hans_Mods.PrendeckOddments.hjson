@@ -4,10 +4,39 @@ Items: {
 		Tooltip: "[c/802592:黑暗]"
 	}
 
-	BGun: {
+	B_Gun: {
 		DisplayName: 命定
-		Tooltip: "[c/FC55BF:“根本就射不完啊bachi”]"
+		Tooltip: "[c/FC55BF:“根本就射不完啊”]"
+	}
+
+	Test_One: {
+		DisplayName: Test One
+		Tooltip: ""
+	}
+
+	Soul_Burn_Potions: {
+		DisplayName: 燃魂药水
+		Tooltip:
+			'''
+			用[c/F51949:你]的[c/F51949:生命]来换取[c/F51949:65%伤害]和[c/F51949:45%暴击]加成
+			“温馨提示：总消耗[c/F51949:165血量]，不要乱喝哦”
+			'''
+	}
+
+	Test_Two: {
+		DisplayName: 废物
+		Tooltip: 因为不会写召唤武器鸽了
 	}
 }
 
-Projectiles.Sigma.DisplayName: 西格玛
+Projectiles: {
+	// Projectiles.Sigma.DisplayName: Sigma
+	Sigma.DisplayName: 斯格玛
+}
+
+Buffs: {
+	Soul_Burn_Buff: {
+		DisplayName: 燃魂
+		Description: "[c/F51949:65%伤害]和[c/F51949:45%暴击]加成，但[c/F51949:生命]持续减少"
+	}
+}

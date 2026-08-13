@@ -6,7 +6,7 @@ using Terraria.Graphics.Shaders;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace PrendeckOddments.Content.Items.Weapons
+namespace PrendeckOddments.Content.Items.Weapons.Melee
 { 
 
 	public class Sigkin : ModItem
@@ -20,18 +20,18 @@ namespace PrendeckOddments.Content.Items.Weapons
         public override void SetDefaults()
 		{
 			Item.autoReuse = true;
-			Item.SetWeaponValues(114514, 1000, 100); //ÉèÖÃÉËº¦¡¢±©»÷ÂÊºÍËÙ¶È
-            Item.DamageType = DamageClass.Melee; //ÉËº¦ÀàÐÍ
+			Item.SetWeaponValues(114514, 1000, 100); //è®¾ç½®ä¼¤å®³ï¼Œæš´å‡»çŽ‡ï¼Œå°„é€Ÿ
+            Item.DamageType = DamageClass.Melee; //è®¾ç½®ä¼¤å®³ç±»åž‹
 			Item.width = 40;
 			Item.height = 40;
 			Item.useTime = 15;
 			Item.useAnimation = 15;
+			Item.shootsEveryUse = true;
 			Item.useStyle = ItemUseStyleID.Swing;
 			Item.value = Item.sellPrice(1,0,0,0);
 			Item.value = Item.buyPrice(1,0,0,0);
 			Item.shoot = ModContent.ProjectileType<Sigma>();
-			Item.shootSpeed = 25f;
-			Item.shootsEveryUse = true;
+            Item.shootSpeed = 15f;
 			Item.rare = ItemRarityID.Pink;
 			Item.UseSound = SoundID.Item71;
 

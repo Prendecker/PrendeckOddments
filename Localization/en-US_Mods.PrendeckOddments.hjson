@@ -4,10 +4,35 @@ Items: {
 		Tooltip: "[c/802592:Darkness]"
 	}
 
-	BGun: {
+	B_Gun: {
 		DisplayName: B Gun
+		Tooltip: ""
+	}
+
+	Test_One: {
+		DisplayName: Test One
+		Tooltip: ""
+	}
+
+	Soul_Burn_Potions: {
+		DisplayName: Soulburn Potions
+		Tooltip: ""
+	}
+
+	Test_Two: {
+		DisplayName: Test Two
 		Tooltip: ""
 	}
 }
 
-Projectiles.Sigma.DisplayName: Sigma
+Projectiles: {
+	Projectiles.Sigma.DisplayName: Sigma
+	Sigma.DisplayName: Sigma
+}
+
+Buffs: {
+	Soul_Burn_Buff: {
+		DisplayName: Soul Burn
+		Description: Mods.PrendeckOddments.Buffs.SoulBurnBuff.Description
+	}
+}

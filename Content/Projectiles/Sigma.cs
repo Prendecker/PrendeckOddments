@@ -25,7 +25,7 @@ namespace PrendeckOddments.Content.Projectiles
             Projectile.friendly = true;
             Projectile.hostile = false;
             Projectile.penetrate = -1;
-            Projectile.timeLeft = 90;
+            Projectile.timeLeft = 60;
             Projectile.usesLocalNPCImmunity = true;
             Projectile.localNPCHitCooldown = -1;
         }
@@ -33,12 +33,11 @@ namespace PrendeckOddments.Content.Projectiles
         public override void AI()
         {
             Projectile.rotation = Projectile.velocity.ToRotation() + MathHelper.Pi / 2;
+            Lighting.AddLight(Projectile.Center, 12.7f * 0.07f, 3.3f * 0.07f, 19.1f * 0.07f);
 
-            Projectile.ai[0] = +1;
-
-            if (Projectile.ai[0] >= 1f)
+            if (Projectile.timeLeft <= 45)
             {
-                Projectile.velocity *= 0.98f;
+                Projectile.velocity *= 0.97f;
             }
 
         }
