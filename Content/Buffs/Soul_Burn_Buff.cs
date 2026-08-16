@@ -8,7 +8,7 @@ using Terraria.ModLoader;
 
 namespace PrendeckOddments.Content.Buffs
 {
-    internal class Soul_Burn_Buff : ModBuff
+    public class Soul_Burn_Buff : ModBuff
     {
         public override void SetStaticDefaults()
         {
@@ -36,6 +36,7 @@ namespace PrendeckOddments.Content.Buffs
                 Dust d = Dust.NewDustDirect(player.position, player.width, player.height, DustID.LifeDrain);
                 d.velocity *= 0.75f;
             }
+
         }
     }
 }

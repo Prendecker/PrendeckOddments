@@ -18,6 +18,7 @@ namespace PrendeckOddments.Content.Items.Weapons.Ranged
 
         public override void SetDefaults()
         {
+            Item.autoReuse = true;
             Item.SetWeaponValues(131313, 1000, 96);
             Item.DefaultToRangedWeapon(1,AmmoID.Bullet,6,20f,true);
             Item.width = 40;
@@ -56,12 +57,12 @@ namespace PrendeckOddments.Content.Items.Weapons.Ranged
             return new Vector2(-3,3);//物品贴图手持偏移
         }
 
-        public override void AddRecipes()
-        {
-            Recipe recipe = CreateRecipe();
-            recipe.AddIngredient(ItemID.DirtBlock, 10);
-            recipe.AddTile(TileID.WorkBenches);
-            recipe.Register();
-        }
+        //public override void AddRecipes()
+        //{
+        //    Recipe recipe = CreateRecipe();
+        //    recipe.AddIngredient(ItemID.DirtBlock, 10);
+        //    recipe.AddTile(TileID.WorkBenches);
+        //    recipe.Register();
+        //}
     }
 }

@@ -23,11 +23,17 @@ Items: {
 		DisplayName: Test Two
 		Tooltip: ""
 	}
+
+	Rose_Bullet: {
+		DisplayName: Rose_ Bullet
+		Tooltip: ""
+	}
 }
 
 Projectiles: {
 	Projectiles.Sigma.DisplayName: Sigma
 	Sigma.DisplayName: Sigma
+	Rose_Bullet_Proj.DisplayName: Rose_ Bullet_ Proj
 }
 
 Buffs: {

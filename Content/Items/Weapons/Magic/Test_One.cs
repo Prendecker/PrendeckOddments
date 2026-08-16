@@ -31,6 +31,7 @@ namespace PrendeckOddments.Content.Items.Weapons.Magic
             Item.value = Item.buyPrice(1, 0, 0, 0);
             Item.rare = ItemRarityID.Pink;
 
+
         }
 
         public override bool Shoot(Player player, EntitySource_ItemUse_WithAmmo Source, Vector2 position, Vector2 velocity, int type, int damage, float knockback)
@@ -50,14 +51,12 @@ namespace PrendeckOddments.Content.Items.Weapons.Magic
             
         }
 
-
-
-        public override void AddRecipes()
-        {
-            Recipe recipe = CreateRecipe();
-            recipe.AddIngredient(ItemID.DirtBlock, 10);
-            recipe.AddTile(TileID.WorkBenches);
-            recipe.Register();
-        }
+        //public override void AddRecipes()
+        //{
+        //    Recipe recipe = CreateRecipe();
+        //    recipe.AddIngredient(ItemID.DirtBlock, 10);
+        //    recipe.AddTile(TileID.WorkBenches);
+        //    recipe.Register();
+        //}
     }
 }

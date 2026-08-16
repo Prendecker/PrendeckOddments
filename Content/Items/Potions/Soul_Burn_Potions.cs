@@ -23,17 +23,17 @@ namespace PrendeckOddments.Content.Items.Potions
             Item.width = 18;
             Item.height = 28;
             Item.rare = ItemRarityID.Yellow;
-            Item.value = Item.sellPrice(1, 0, 0, 0);
-            Item.value = Item.buyPrice(0, 5, 0, 0);
-            Item.useTime = 15;
-            Item.useAnimation = 15;
+            Item.value = Item.sellPrice(1, 0, 0, 0);//
+            Item.value = Item.buyPrice(0, 5, 0, 0);//
+            Item.useTime = 15;//物品使用间隔时间
+            Item.useAnimation = 15;//物品使用动画时间
             Item.useStyle = ItemUseStyleID.DrinkLong;
             Item.shootSpeed = 15f;
             Item.UseSound = SoundID.Item3;
-            Item.maxStack = Item.CommonMaxStack;
-            Item.consumable = true;
-            Item.buffType = ModContent.BuffType<Soul_Burn_Buff>();
-            Item.buffTime = 660;
+            Item.maxStack = Item.CommonMaxStack;//物品堆叠没什么好说的除某些东西外直接‘Item.CommonMaxStack’
+            Item.consumable = true;//确认这是否为消耗品
+            Item.buffType = ModContent.BuffType<Soul_Burn_Buff>();//给予的Buff
+            Item.buffTime = 660;//Buff时间，单位为tick1秒=60tick，所以是11秒
         }
 
         public override void AddRecipes()

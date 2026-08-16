@@ -1,5 +1,4 @@
 using Microsoft.Xna.Framework;
-using System;
 using Terraria;
 using Terraria.Audio;
 using Terraria.Graphics.Shaders;
@@ -13,6 +12,7 @@ namespace PrendeckOddments.Content.Projectiles
 	{
         public override void SetStaticDefaults()
         {
+
         }
 
         public override void SetDefaults()
@@ -33,7 +33,7 @@ namespace PrendeckOddments.Content.Projectiles
         public override void AI()
         {
             Projectile.rotation = Projectile.velocity.ToRotation() + MathHelper.Pi / 2;
-            Lighting.AddLight(Projectile.Center, 12.7f * 0.07f, 3.3f * 0.07f, 19.1f * 0.07f);
+            Lighting.AddLight(Projectile.Center, new Vector3(12.7f * 0.033f, 3.3f * 0.033f, 19.1f * 0.033f));//设置灯光
 
             if (Projectile.timeLeft <= 45)
             {

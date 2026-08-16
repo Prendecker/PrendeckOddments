@@ -2,7 +2,6 @@ using Microsoft.Xna.Framework;
 using PrendeckOddments.Content.Projectiles;
 using Terraria;
 using Terraria.DataStructures;
-using Terraria.Graphics.Shaders;
 using Terraria.ID;
 using Terraria.ModLoader;
 
@@ -48,12 +47,12 @@ namespace PrendeckOddments.Content.Items.Weapons.Melee
             velocity = velocity.RotatedByRandom(MathHelper.ToRadians(6.5f));
         }
 
-        public override void AddRecipes()
-		{
-			Recipe recipe = CreateRecipe();
-			recipe.AddIngredient(ItemID.DirtBlock, 10);
-			recipe.AddTile(TileID.WorkBenches);
-			recipe.Register();
-		}
+        //public override void AddRecipes()
+		//{
+		//	Recipe recipe = CreateRecipe();
+		//	recipe.AddIngredient(ItemID.DirtBlock, 10);
+		//	recipe.AddTile(TileID.WorkBenches);
+		//	recipe.Register();
+		//}
 	}
 }

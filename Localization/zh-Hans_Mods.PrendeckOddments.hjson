@@ -1,17 +1,17 @@
 Items: {
 	Sigkin: {
 		DisplayName: 西格玛
-		Tooltip: "[c/802592:黑暗]"
+		Tooltip: "[c/802592:Darkness]"
 	}
 
 	B_Gun: {
-		DisplayName: 命定
-		Tooltip: "[c/FC55BF:“根本就射不完啊”]"
+		DisplayName: B枪
+		Tooltip: 一把枪
 	}
 
 	Test_One: {
-		DisplayName: Test One
-		Tooltip: ""
+		DisplayName: 测试用的法书
+		Tooltip: 玩的开心点
 	}
 
 	Soul_Burn_Potions: {
@@ -25,13 +25,23 @@ Items: {
 
 	Test_Two: {
 		DisplayName: 废物
-		Tooltip: 因为不会写召唤武器鸽了
+		Tooltip: 不会写召唤武器鸽了
+	}
+
+	Rose_Bullet: {
+		DisplayName: 玫瑰弹
+		Tooltip:
+			'''
+			会受重力影响
+			[c/8b0b1d:“它太重了，以至于会掉下去”]
+			'''
 	}
 }
 
 Projectiles: {
-	// Projectiles.Sigma.DisplayName: Sigma
+	Projectiles.Sigma.DisplayName: 斯格玛
 	Sigma.DisplayName: 斯格玛
+	Rose_Bullet_Proj.DisplayName: 玫瑰弹弹幕
 }
 
 Buffs: {
