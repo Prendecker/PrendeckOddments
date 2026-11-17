@@ -1,0 +1,3 @@
+displayName = Prendeck's Oddments
+author = Prendeck
+version = 0.1

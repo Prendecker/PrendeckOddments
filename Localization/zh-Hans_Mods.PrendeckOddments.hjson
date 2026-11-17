@@ -1,0 +1,120 @@
+Items: {
+	Sigkin: {
+		DisplayName: 西格玛
+		Tooltip: "[c/802592:Darkness]"
+	}
+
+	B_Gun: {
+		DisplayName: B枪
+		Tooltip: 一把枪
+	}
+
+	Test_One: {
+		DisplayName: 装满中二语录的书书
+		Tooltip:
+			'''
+			一本由Prendeck那贫弱的文笔所写的中二语录合集
+			[c/8df5fc:传说一位][c/3398d9:骑士][c/8df5fc:和一位][c/f2ecd0:少女][c/8df5fc:降下了一场可怕的][c/cc2626:“灾难”]
+			'''
+	}
+
+	Soul_Burn_Potions: {
+		DisplayName: 红温药水
+		Tooltip:
+			'''
+			增加[c/F51949:65%伤害]和[c/F51949:45%暴击]但在此期间持续扣血
+			[c/F51949:提示：总消耗][c/e3231c:165血量]
+			[c/F51949:当你在boss只剩1%的血量时死亡，你的状态be like：]
+			'''
+	}
+
+	Test_Two: {
+		DisplayName: 废物
+		Tooltip: 不会写召唤武器鸽了
+	}
+
+	Rose_Bullet: {
+		DisplayName: 玫瑰弹
+		Tooltip:
+			'''
+			会受重力影响
+			[c/8b0b1d:它太重了，以至于会掉下去]
+			'''
+	}
+
+	Demthorn_Bullet: {
+		DisplayName: 魔棘弹
+		Tooltip:
+			'''
+			自带13护甲穿透且能穿透敌人
+			[c/571eaa:它太快了，以至于造成不了多少伤害]
+			'''
+	}
+
+	Toy_Knife: {
+		DisplayName: 陨星劈刀
+		Tooltip:
+			'''
+			每五次挥舞消耗[c/2f81e9:[0]]魔力发射巨星陨星
+			直接命中回复[c/2f81e9:{0}]魔力
+			[c/f0ca39:用陨落的星星锻造的奥术劈刀]
+			[c/f0ca39:一把使用魔力的剑？似乎很少有人知道它的存在]
+			[c/9a2341:你个白痴！怎么把镶嵌宝石做成蝴蝶结了？]
+			'''
+	}
+
+	The_Poorly_Painted_Brush: {
+		DisplayName: 被鸽的画笔
+		Tooltip: ""
+	}
+
+	Shadow_Guny: {
+		DisplayName: 暗影汤姆逊
+		Tooltip:
+			'''
+			在使用过程中逐渐增加射速和准确度
+			如果受击则会降低射速和准确度
+			<right>发射穿透音符造成原伤害的[0]%
+			[c/626262:摇摆♪ 然后注意点别被击中了♫]
+			'''
+	}
+
+	Gravel_Bullet: {
+		DisplayName: 小石子子弹
+		Tooltip:
+			'''
+			[c/4a4641:如果你能搞到一把顺手的枪，这东西也许就有用了]
+			[c/4a4641:但遗憾的是你并不知道怎么在砸掉][c/571eaa:暗影珠][c/4a4641:或者][c/8b0b1d:心脏][c/4a4641:之前搞到一把枪]
+			'''
+	}
+
+	Molante_Gift: {
+		DisplayName: 萤火蛾飞羽
+		Tooltip:
+			'''
+			给予一次额外跳跃
+			使用额外跳跃时根据移动方向给予一个斜向量
+			[c/9376c6:你可见]
+			[c/9376c6:夜空尽头的景象？]
+			'''
+	}
+}
+
+Projectiles: {
+	Sigma.DisplayName: 斯格玛
+	Rose_Bullet_Proj.DisplayName: 玫瑰弹弹幕
+	Demthorn_Bullet_Proj.DisplayName: 魔棘弹弹幕
+	Toy_Star.DisplayName: 玩具星星
+	Toy_Star_Fragments.DisplayName: 玩具碎片
+	Painted_Brush_BOOM.DisplayName: 撇吉普
+	Shadow_Gute.DisplayName: 傻豆盖音符
+	Gravel_Bullet_Proj.DisplayName: 废物石子
+	Shadow_Guny_Htelm.DisplayName: 从傻豆盖那里偷的枪
+}
+
+Buffs: {
+	Soul_Burn_Buff: {
+		DisplayName: 红温
+		Description: 增加[c/F51949:65%伤害]和[c/F51949:45%暴击]加成，但[c/F51949:生命]持续减少
+	}
+}

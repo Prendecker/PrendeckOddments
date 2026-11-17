@@ -1,0 +1,80 @@
+Items: {
+	Sigkin: {
+		DisplayName: Sigkin
+		Tooltip: "[c/802592:Darkness]"
+	}
+
+	B_Gun: {
+		DisplayName: B Gun
+		Tooltip: ""
+	}
+
+	Test_One: {
+		DisplayName: Test One
+		Tooltip: ""
+	}
+
+	Soul_Burn_Potions: {
+		DisplayName: Soulburn Potions
+		Tooltip: ""
+	}
+
+	Test_Two: {
+		DisplayName: Test Two
+		Tooltip: ""
+	}
+
+	Rose_Bullet: {
+		DisplayName: Rose_ Bullet
+		Tooltip: ""
+	}
+
+	Demthorn_Bullet: {
+		DisplayName: Demthorn_ Bullet
+		Tooltip: ""
+	}
+
+	Toy_Knife: {
+		DisplayName: Toy_ Knife
+		Tooltip: ""
+	}
+
+	The_Poorly_Painted_Brush: {
+		DisplayName: The_ Poorly_ Painted_ Brush
+		Tooltip: ""
+	}
+
+	Shadow_Guny: {
+		DisplayName: Shadow_ Guny
+		Tooltip: ""
+	}
+
+	Gravel_Bullet: {
+		DisplayName: Gravel_ Bullet
+		Tooltip: ""
+	}
+
+	Molante_Gift: {
+		DisplayName: Molante_ Gift
+		Tooltip: ""
+	}
+}
+
+Projectiles: {
+	Sigma.DisplayName: Sigma
+	Rose_Bullet_Proj.DisplayName: Rose_ Bullet_ Proj
+	Demthorn_Bullet_Proj.DisplayName: Demthorn_ Bullet_ Proj
+	Toy_Star.DisplayName: Toy_ Star
+	Toy_Star_Fragments.DisplayName: Toy_ Star_ Fragments
+	Painted_Brush_BOOM.DisplayName: Painted_ Brush_ B O O M
+	Shadow_Gute.DisplayName: Shadow_ Gute
+	Gravel_Bullet_Proj.DisplayName: Gravel_ Bullet_ Proj
+	Shadow_Guny_Htelm.DisplayName: Shadow_ Guny_ Htelm
+}
+
+Buffs: {
+	Soul_Burn_Buff: {
+		DisplayName: Soul Burn
+		Description: "[c/F51949:65% damage] and [c/F51949:45% crit] bonus, but [c/F51949:life] drains continuously"
+	}
+}

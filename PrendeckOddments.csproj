@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<!-- Import tModLoader mod properties -->
+	<Import Project="..\tModLoader.targets" />
+
+	<!-- General -->
+	<PropertyGroup>
+		
+	</PropertyGroup>
+	<ItemGroup>
+	  <AdditionalFiles Remove="Content\ModDraw\**" />
+	  <Compile Remove="Content\ModDraw\**" />
+	  <EmbeddedResource Remove="Content\ModDraw\**" />
+	  <None Remove="Content\ModDraw\**" />
+
+	  <!-- Tools 目录只放开发辅助工具（Python 脚本 / C# 反射导出器 / Remotion 动画工程），
+	       不属于模组内容，必须排除，否则里面的 .cs 会被当成模组代码一起编译 -->
+	  <AdditionalFiles Remove="Tools\**" />
+	  <Compile Remove="Tools\**" />
+	  <EmbeddedResource Remove="Tools\**" />
+	  <None Remove="Tools\**" />
+	</ItemGroup>
+
+
+	<!-- References -->
+
+</Project>
